@@ -1,0 +1,14 @@
+eventSplitter = /\s+/;
+/[^\/]$/;
+delegateEventSplitter = /^(\S+)\s*(.*)$/;
+optionalParam = /\((.*?)\)/g;
+namedParam    = /(\(\?)?:\w+/g;
+splatParam    = /\*\w+/g;
+escapeRegExp  = /[\-{}\[\]+?.,\\\^$|#\s]/g;
+routeStripper = /^[#\/]|\s+$/g;
+rootStripper = /^\/+|\/+$/g;
+pathStripper = /#.*$/;
+/[^\/]$/;
+/%25/g;
+/#.*/;
+/(javascript:|#).*$/;
