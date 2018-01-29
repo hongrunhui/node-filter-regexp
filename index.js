@@ -15,7 +15,7 @@ readUrl();
 // 读取本地文件
 // readFile(filePath);
 
-function readUrl(url) {
+function readUrl() {
     let questions = [
         {
             type: 'input',

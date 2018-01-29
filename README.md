@@ -2,4 +2,5 @@
 #### 说明：筛选出框架源码里所有的的正则表达式，配合[https://regexr.com/](https://regexr.com/)，可以用于学习理解框架的正则。
 * `regsResult`是筛选后的正则文件
 * `regsSource`是本地想要被筛选的文件
-* `node index.js`输入源码cdn即可
+* `npm instal`、`node index.js`输入源码cdn即可
+* 使用方法：![image](https://user-images.githubusercontent.com/9162319/35494237-30950a5c-04f4-11e8-9e57-c7b309fb7ab0.png)
